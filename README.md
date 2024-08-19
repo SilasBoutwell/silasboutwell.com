@@ -1,3 +1,3 @@
 # silasboutwell.com
 
-This is a website for myself
+This is a portfolio website for myself.
