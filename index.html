@@ -784,7 +784,7 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <script>
-    const birthday = new Date('9-05-2007')
+    const birthday = new Date('9-5-2007')
     const age = document.getElementById("age")
     const date = new Date()
     let day = date.getDate()
@@ -794,7 +794,7 @@
     let currentDate = month + "-" + day + "-" + year;
     console.log("Birthday: " + birthday);
     console.log("Current Date: " + currentDate);
-    if (day > birthday.getDay() && month > birthday.getMonth()) {
+    if (month >= birthday.getMonth() + 1 && day >= birthday.getDate()) {
       age.innerHTML = year - birthday.getFullYear()
       console.log(age)
     } else {
